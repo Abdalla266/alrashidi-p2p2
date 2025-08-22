@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>الرشيدي P2P | شدات ببجي</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #222, #444);
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: gold;
+      text-align: center;
+      box-shadow: 0 0 15px gold;
+    }
+    .container {
+      padding: 30px;
+      text-align: center;
+    }
+    .package {
+      background: #1e1e1e;
+      border: 1px solid gold;
+      border-radius: 10px;
+      margin: 20px auto;
+      padding: 20px;
+      width: 300px;
+      transition: 0.4s;
+    }
+    .package:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 0 25px gold;
+    }
+    .price {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #0f0;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background: gold;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: orange;
+      transform: scale(1.05);
+    }
+
+    /* قسم الخطوات */
+    .steps {
+      margin: 50px 0;
+      padding: 20px;
+    }
+    .steps h2 {
+      color: gold;
+      margin-bottom: 20px;
+    }
+    .step {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    /* لماذا نحن */
+    .why-us {
+      background: #222;
+      padding: 30px;
+      border-top: 2px solid gold;
+      border-bottom: 2px solid gold;
+    }
+    .why-us h2 {
+      color: gold;
+    }
+    .reasons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .reason {
+      background: #1e1e1e;
+      border: 1px solid gold;
+      border-radius: 8px;
+      margin: 10px;
+      padding: 15px;
+      width: 180px;
+      transition: 0.3s;
+    }
+    .reason:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px gold;
+    }
+
+    /* زر واتساب عائم */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 60px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 100;
+      transition: 0.3s;
+    }
+    .whatsapp-float:hover {
+      background: #20b358;
+      transform: scale(1.1);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .reasons {
+        flex-direction: column;
+        align-items: center;
+      }
+      .package {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>🔥 الرشيدي P2P | شدات ببجي 🔥</header>
+
+<div class="container">
+  <!-- الباقات -->
+  <div class="package">
+    <h3>325 شدة</h3>
+    <p class="price">20,000 بنكك</p>
+    <a class="button" href="https://wa.me/249114842129?text=السلام%20عليكم%20✨%0A%0Aأرغب%20بشراء%20باقة%20325%20شدة%20(20,000%20بنكك)%0Aرقم%20اللاعب%20(Player%20ID):%20______%0Aوسأرسل%20صورة%20التحويل%20الآن%20✅">شراء عبر واتساب</a>
+  </div>
+
+  <div class="package">
+    <h3>660 شدة</h3>
+    <p class="price">40,000 بنكك</p>
+    <a class="button" href="https://wa.me/249114842129?text=السلام%20عليكم%20✨%0A%0Aأرغب%20بشراء%20باقة%20660%20شدة%20(40,000%20بنكك)%0Aرقم%20اللاعب%20(Player%20ID):%20______%0Aوسأرسل%20صورة%20التحويل%20الآن%20✅">شراء عبر واتساب</a>
+  </div>
+
+  <div class="package">
+    <h3>1800 شدة</h3>
+    <p class="price">100,000 بنكك</p>
+    <a class="button" href="https://wa.me/249114842129?text=السلام%20عليكم%20✨%0A%0Aأرغب%20بشراء%20باقة%201800%20شدة%20(100,000%20بنكك)%0Aرقم%20اللاعب%20(Player%20ID):%20______%0Aوسأرسل%20صورة%20التحويل%20الآن%20✅">شراء عبر واتساب</a>
+  </div>
+
+  <div class="package">
+    <h3>3850 شدة</h3>
+    <p class="price">200,000 بنكك</p>
+    <a class="button" href="https://wa.me/249114842129?text=السلام%20عليكم%20✨%0A%0Aأرغب%20بشراء%20باقة%203850%20شدة%20(200,000%20بنكك)%0Aرقم%20اللاعب%20(Player%20ID):%20______%0Aوسأرسل%20صورة%20التحويل%20الآن%20✅">شراء عبر واتساب</a>
+  </div>
+
+  <div class="package">
+    <h3>8100 شدة</h3>
+    <p class="price">400,000 بنكك</p>
+    <a class="button" href="https://wa.me/249114842129?text=السلام%20عليكم%20✨%0A%0Aأرغب%20بشراء%20باقة%208100%20شدة%20(400,000%20بنكك)%0Aرقم%20اللاعب%20(Player%20ID):%20______%0Aوسأرسل%20صورة%20التحويل%20الآن%20✅">شراء عبر واتساب</a>
+  </div>
+</div>
+
+<!-- خطوات الطلب -->
+<div class="steps">
+  <h2>📌 خطوات الطلب:</h2>
+  <p class="step">1️⃣ اختر الباقة المناسبة لك.</p>
+  <p class="step">2️⃣ اضغط "شراء عبر واتساب".</p>
+  <p class="step">3️⃣ حوّل المبلغ عبر بنكك.</p>
+  <p class="step">4️⃣ استلم شداتك فوراً ✅.</p>
+</div>
+
+<!-- لماذا نحن -->
+<div class="why-us">
+  <h2>🌟 لماذا تختار الرشيدي P2P؟</h2>
+  <div class="reasons">
+    <div class="reason">⚡ سرعة التوصيل</div>
+    <div class="reason">💳 دفع آمن عبر بنكك</div>
+    <div class="reason">🛡️ ثقة وموثوقية</div>
+    <div class="reason">🎮 دعم عملاء مستمر</div>
+  </div>
+</div>
+
+<!-- زر واتساب عائم -->
+<a href="https://wa.me/249114842129" class="whatsapp-float">💬</a>
+
+</body>
+</html>
